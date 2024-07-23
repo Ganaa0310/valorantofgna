@@ -1,0 +1,109 @@
+.header{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 0px;
+    background-color: #ff4658;
+}
+.header img{
+    width: 100%;
+}
+.menu {
+    margin-top: 19px;
+    
+}
+.header .menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.header .menu a:hover{
+    color: blue;
+    border-bottom: 2px dashed blue;
+}
+
+*{
+    margin: 0;
+    
+    padding: 0;
+    }
+    body{
+    height: 100vh;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url('https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/14331d268e545efd4f74c443e9a855f85c779aa4-5120x1772.png?auto=format&fit=fill&q=80&w=1817');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    
+    .box{
+    margin-top: 19px;
+    
+    height: 30px;
+    
+    display: flex;
+    
+    cursor: pointer;
+    
+    padding: 10px 20px;
+    
+    background: #fff;
+    
+    border-radius: 30px;
+    
+   
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    
+    }
+    .box:hover input{
+        
+        width: 400px;
+        }
+        
+        
+        .box input{
+        
+        width: 0;
+        
+        outline: none;
+        
+        border: none;
+        
+        font-weight: 500;
+        
+        transition: 0.8s;
+        
+        background: transparent;
+        }
+        
+        
+        .box a .fas{
+        
+        color: #1daf;
+        
+        font-size: 18px;}
+.contact{
+    width: 20px;
+    
+}
+.name{
+    color: #fff;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    margin-top: 200px;
+}
+.p{
+    color: #fff;
+    color: #fff;
+    font-size: 17px;
+}
+.imgA{
+    width: 150px;
+}
+.abi{
+    width: 500px;
+}
